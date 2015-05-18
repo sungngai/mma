@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon May 18 17:33:53 2015
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
+Revision Name : mma_top
+Top-level Entity Name : mma_top
+Family : Cyclone III
+Total logic elements : 938
+    Total combinational functions : 617
+    Dedicated logic registers : 733
+Total registers : 733
+Total pins : 89
+Total virtual pins : 0
+Total memory bits : 196,608
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

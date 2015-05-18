@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\myverilog\mma_top\simulation\modelsim
+vmma_top
+IdQF?9jK0G1TAX53R`1kZd1
+V67fM8o47gKjn>88Y]h9Qd1
+w1410269304
+8mma_top_8_1200mv_85c_slow.vo
+Fmma_top_8_1200mv_85c_slow.vo
+L0 31
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 o-vlog01compat -work work -O0
+!s100 2UJY<ViS[Z6l<LgL@?@jP2
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vmma_top_vlg_tst
+!s100 gBWdL<_=Hf>7ckH>Pi[^A3
+Iz7KB[UkzT7F;@=QegfQe01
+VA^l;I_ACbbH<W=W5a0Anl0
+w1410269083
+8E:/myverilog/mma_top/simulation/modelsim/mma_top.vt
+FE:/myverilog/mma_top/simulation/modelsim/mma_top.vt
+L0 28
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+!s92 -vlog01compat -work work +incdir+E:/myverilog/mma_top/simulation/modelsim -O0

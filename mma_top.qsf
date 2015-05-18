@@ -1,0 +1,168 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 222 10/21/2009 SJ Web Edition
+# Date created = 22:38:55  September 05, 2014
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		mma_top_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C25Q240C8
+set_global_assignment -name TOP_LEVEL_ENTITY mma_top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:38:55  SEPTEMBER 05, 2014"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ns" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH mma_top -section_id eda_simulation
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name EDA_TEST_BENCH_NAME mma_top -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME mma_top_tb -section_id mma_top
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME mma_top_vlg_tst -section_id mma_top
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/mma_top.vt -section_id mma_top
+set_global_assignment -name VERILOG_FILE pingpong_rd.v
+set_global_assignment -name VERILOG_FILE pingpong_wr.v
+set_global_assignment -name VERILOG_FILE pingpong_fifo.v
+set_global_assignment -name VERILOG_FILE input_sync.v
+set_global_assignment -name VERILOG_FILE vga_controler.v
+set_global_assignment -name VERILOG_FILE mma_top.v
+set_global_assignment -name VERILOG_FILE pllnrst.v
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name QIP_FILE fifo1_1.qip
+set_global_assignment -name QIP_FILE fifo1_2.qip
+set_global_assignment -name QIP_FILE fifo2_1.qip
+set_global_assignment -name QIP_FILE fifo2_2.qip
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_34 -to oclk
+set_location_assignment PIN_144 -to rst_n
+set_location_assignment PIN_210 -to clk
+set_location_assignment PIN_177 -to blank_n_l
+set_location_assignment PIN_176 -to sync_n_l
+set_location_assignment PIN_161 -to hsync_l
+set_location_assignment PIN_160 -to vsync_l
+set_location_assignment PIN_203 -to vsync_r
+set_location_assignment PIN_216 -to vga_r[1]
+set_location_assignment PIN_207 -to hsync_r
+set_location_assignment PIN_38 -to vsync_in
+set_location_assignment PIN_37 -to hsync_in
+set_location_assignment PIN_39 -to de_in
+set_location_assignment PIN_226 -to sync_n_r
+set_location_assignment PIN_230 -to blank_n_r
+set_location_assignment PIN_41 -to data_in[23]
+set_location_assignment PIN_43 -to data_in[22]
+set_location_assignment PIN_44 -to data_in[21]
+set_location_assignment PIN_45 -to data_in[20]
+set_location_assignment PIN_46 -to data_in[19]
+set_location_assignment PIN_49 -to data_in[18]
+set_location_assignment PIN_50 -to data_in[17]
+set_location_assignment PIN_51 -to data_in[16]
+set_location_assignment PIN_52 -to data_in[15]
+set_location_assignment PIN_55 -to data_in[14]
+set_location_assignment PIN_56 -to data_in[13]
+set_location_assignment PIN_57 -to data_in[12]
+set_location_assignment PIN_63 -to data_in[11]
+set_location_assignment PIN_64 -to data_in[10]
+set_location_assignment PIN_65 -to data_in[9]
+set_location_assignment PIN_68 -to data_in[8]
+set_location_assignment PIN_71 -to data_in[7]
+set_location_assignment PIN_72 -to data_in[6]
+set_location_assignment PIN_73 -to data_in[5]
+set_location_assignment PIN_76 -to data_in[4]
+set_location_assignment PIN_78 -to data_in[3]
+set_location_assignment PIN_80 -to data_in[2]
+set_location_assignment PIN_81 -to data_in[1]
+set_location_assignment PIN_82 -to data_in[0]
+set_location_assignment PIN_189 -to vga_l[23]
+set_location_assignment PIN_194 -to vga_l[22]
+set_location_assignment PIN_195 -to vga_l[21]
+set_location_assignment PIN_196 -to vga_l[20]
+set_location_assignment PIN_197 -to vga_l[19]
+set_location_assignment PIN_200 -to vga_l[18]
+set_location_assignment PIN_201 -to vga_l[17]
+set_location_assignment PIN_202 -to vga_l[16]
+set_location_assignment PIN_181 -to vga_l[15]
+set_location_assignment PIN_182 -to vga_l[14]
+set_location_assignment PIN_183 -to vga_l[13]
+set_location_assignment PIN_184 -to vga_l[12]
+set_location_assignment PIN_185 -to vga_l[11]
+set_location_assignment PIN_186 -to vga_l[10]
+set_location_assignment PIN_187 -to vga_l[9]
+set_location_assignment PIN_188 -to vga_l[8]
+set_location_assignment PIN_173 -to vga_l[7]
+set_location_assignment PIN_171 -to vga_l[6]
+set_location_assignment PIN_169 -to vga_l[5]
+set_location_assignment PIN_168 -to vga_l[4]
+set_location_assignment PIN_167 -to vga_l[3]
+set_location_assignment PIN_166 -to vga_l[2]
+set_location_assignment PIN_164 -to vga_l[1]
+set_location_assignment PIN_162 -to vga_l[0]
+set_location_assignment PIN_4 -to vga_r[23]
+set_location_assignment PIN_5 -to vga_r[22]
+set_location_assignment PIN_6 -to vga_r[21]
+set_location_assignment PIN_9 -to vga_r[20]
+set_location_assignment PIN_13 -to vga_r[19]
+set_location_assignment PIN_18 -to vga_r[18]
+set_location_assignment PIN_21 -to vga_r[17]
+set_location_assignment PIN_22 -to vga_r[16]
+set_location_assignment PIN_231 -to vga_r[15]
+set_location_assignment PIN_232 -to vga_r[14]
+set_location_assignment PIN_233 -to vga_r[13]
+set_location_assignment PIN_234 -to vga_r[12]
+set_location_assignment PIN_235 -to vga_r[11]
+set_location_assignment PIN_236 -to vga_r[10]
+set_location_assignment PIN_237 -to vga_r[9]
+set_location_assignment PIN_238 -to vga_r[8]
+set_location_assignment PIN_224 -to vga_r[7]
+set_location_assignment PIN_223 -to vga_r[6]
+set_location_assignment PIN_221 -to vga_r[5]
+set_location_assignment PIN_219 -to vga_r[4]
+set_location_assignment PIN_218 -to vga_r[3]
+set_location_assignment PIN_217 -to vga_r[2]
+set_location_assignment PIN_214 -to vga_r[0]
+set_global_assignment -name MISC_FILE "E:/myverilog/mma_top/mma_top.dpf"
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED"
+set_location_assignment PIN_240 -to vga_clk
+set_global_assignment -name MISC_FILE "E:/myverilog/mma_top1/mma_top.dpf"
+set_location_assignment PIN_147 -to led0
+set_location_assignment PIN_148 -to led1
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

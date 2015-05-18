@@ -1,0 +1,14 @@
+
+State Machine - |mma_top|vga_controler:vga_controler_inst|cstate
+Name cstate.IDLE cstate.RD_FIFO2 cstate.RD_FIFO1 
+cstate.IDLE 0 0 0 
+cstate.RD_FIFO1 1 0 1 
+cstate.RD_FIFO2 1 1 0 
+
+State Machine - |mma_top|pingpong_wr:pingpong_wr_inst|cstate
+Name cstate.IDLE cstate.WR_FIFO2 cstate.CLR_FIFO2 cstate.WR_FIFO1 cstate.CLR_FIFO1 
+cstate.IDLE 0 0 0 0 0 
+cstate.CLR_FIFO1 1 0 0 0 1 
+cstate.WR_FIFO1 1 0 0 1 0 
+cstate.CLR_FIFO2 1 0 1 0 0 
+cstate.WR_FIFO2 1 1 0 0 0 

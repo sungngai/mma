@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="mma_top">
+		<CBX_INST_ENTRY INSTANCE_NAME="|mma_top|pingpong_fifo:pingpong_fifo_inst|fifo1_1:fifo1_1_inst|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_2gi1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mma_top|pingpong_fifo:pingpong_fifo_inst|fifo1_2:fifo1_2_inst|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_2gi1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mma_top|pingpong_fifo:pingpong_fifo_inst|fifo2_1:fifo2_1_inst|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_2gi1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mma_top|pingpong_fifo:pingpong_fifo_inst|fifo2_2:fifo2_2_inst|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_2gi1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mma_top|pllnrst:pllnrst_inst|pll:pll_inst|altpll:altpll_component" CBX_FILE_NAME="pll_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>

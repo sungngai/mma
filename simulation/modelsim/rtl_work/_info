@@ -1,0 +1,200 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\myverilog\mma_top1\simulation\modelsim
+vfifo1_1
+I2mizYBoGNE]6TmNaCWJQe3
+V[[k>CejL]W?h5z>mVbWAW0
+w1410275552
+8E:/myverilog/mma_top1/fifo1_1.v
+FE:/myverilog/mma_top1/fifo1_1.v
+L0 39
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 o-vlog01compat -work work -O0
+Z3 !s92 -vlog01compat -work work +incdir+E:/myverilog/mma_top1 -O0
+!s100 ^i=7A3T6cYJ>OU4OjYj[V1
+!s85 0
+!s101 -O0
+vfifo1_2
+Ida21<>FX4X2?k_JgEO0P61
+VfIToXVOb<7mFSXMLQMW_03
+w1410275561
+8E:/myverilog/mma_top1/fifo1_2.v
+FE:/myverilog/mma_top1/fifo1_2.v
+L0 39
+R1
+r1
+31
+R2
+R3
+!s100 T5=kzNGmC=927Hb76JNzF3
+!s85 0
+!s101 -O0
+vfifo2_1
+Ij<^mAHelIk5bnfPJkUd992
+Vn>1@KSm@YgSK_K=o^CSZN0
+w1410275574
+8E:/myverilog/mma_top1/fifo2_1.v
+FE:/myverilog/mma_top1/fifo2_1.v
+L0 39
+R1
+r1
+31
+R2
+R3
+!s100 CcBG0jKdjDS^YolF@XMoO1
+!s85 0
+!s101 -O0
+vfifo2_2
+IObeI7NE=ZZ2d]6X1mZYYW3
+V90P7oZdGRLXCSVF?X_FVV1
+w1410275589
+8E:/myverilog/mma_top1/fifo2_2.v
+FE:/myverilog/mma_top1/fifo2_2.v
+L0 39
+R1
+r1
+31
+R2
+R3
+!s100 iY7ffJC><9T4X;=oohjid2
+!s85 0
+!s101 -O0
+vinput_sync
+I2P>i1Z2MQ1>H^]o[XkA=G1
+Vk6[UlK<1IT[>Okl>W^]Bj0
+w1410000960
+8E:/myverilog/mma_top1/input_sync.v
+FE:/myverilog/mma_top1/input_sync.v
+L0 12
+R1
+r1
+31
+R2
+R3
+!s100 <XOA3nml0EbeG@f9:jNX43
+!s85 0
+!s101 -O0
+vmma_top
+I9NCHJQ62eYn6CMDXJz`hE1
+VB1WB[SaV:nhJ?_<AN1hc71
+w1410351463
+8E:/myverilog/mma_top1/mma_top.v
+FE:/myverilog/mma_top1/mma_top.v
+L0 12
+R1
+r1
+31
+R2
+R3
+!s100 <[a68Z<?;6<69Mm8`2_gJ2
+!s85 0
+!s101 -O0
+vmma_top_vlg_tst
+!s100 VXj?7b0@@aQ`i29Y@hg2m2
+I[Knj8GfQmc5SDRozEAelC3
+VA^l;I_ACbbH<W=W5a0Anl0
+w1410324829
+8E:/myverilog/mma_top1/simulation/modelsim/mma_top.vt
+FE:/myverilog/mma_top1/simulation/modelsim/mma_top.vt
+L0 28
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+!s92 -vlog01compat -work work +incdir+E:/myverilog/mma_top1/simulation/modelsim -O0
+vpingpong_fifo
+IeTgJM9P]?4Cm@:0joW8`>2
+VJJ5mcX?>Cl`lz_oQFK?eh3
+w1410339354
+8E:/myverilog/mma_top1/pingpong_fifo.v
+FE:/myverilog/mma_top1/pingpong_fifo.v
+L0 12
+R1
+r1
+31
+R2
+R3
+!s100 ]H]61Vc[RzW?ji3cNmcLT3
+!s85 0
+!s101 -O0
+vpingpong_wr
+IDzQTLk2_?L`9:CYRKD4In2
+VNlh>??iM9Q1BM@B7InEn]1
+w1410340006
+8E:/myverilog/mma_top1/pingpong_wr.v
+FE:/myverilog/mma_top1/pingpong_wr.v
+L0 12
+R1
+r1
+31
+R2
+R3
+!s100 ZQnVIkfPlmJdYb0lb8XFe3
+!s85 0
+!s101 -O0
+vpll
+I]TTG1c5>_X:gY<3l[N17<1
+V_XSVm9JT6dEoXJ=[=cVXa3
+w1410267262
+8E:/myverilog/mma_top1/pll.v
+FE:/myverilog/mma_top1/pll.v
+L0 39
+R1
+r1
+31
+R2
+R3
+!s100 efiQ80]fMUWj5>bGlQ?oo3
+!s85 0
+!s101 -O0
+vpll_altpll
+I8E=@<e?Y;N5E59`4kP>Dm3
+V?DF8j=RJ_EcKZlDzF;fMW0
+w1410267266
+8E:/myverilog/mma_top1/db/pll_altpll.v
+FE:/myverilog/mma_top1/db/pll_altpll.v
+L0 30
+R1
+r1
+31
+R2
+!s100 `kAP1V<0Xo<UWz11nhdV?3
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+E:/myverilog/mma_top1/db -O0
+vpllnrst
+II6GR<h=4WmH5b3i@W]Xa20
+Vf3J_d^CFWeMhJQ=U:VU0U1
+w1410156261
+8E:/myverilog/mma_top1/pllnrst.v
+FE:/myverilog/mma_top1/pllnrst.v
+L0 12
+R1
+r1
+31
+R2
+R3
+!s100 Zd=2?W24`]OD_LlnA5gEc2
+!s85 0
+!s101 -O0
+vvga_controler
+IV;jlU75]85e;UENdAThaj1
+VPUF]nALRW02<=zP;EMRJ=0
+w1410334652
+8E:/myverilog/mma_top1/vga_controler.v
+FE:/myverilog/mma_top1/vga_controler.v
+L0 12
+R1
+r1
+31
+R2
+R3
+!s100 4?WZJWTQ60i@4:MI7]Blk1
+!s85 0
+!s101 -O0
